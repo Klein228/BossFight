@@ -128,16 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ResourcesManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\Animation.h" />
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\Atlas.h" />
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\Camera.h" />
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\Scene.h" />
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\SceneManager.h" />
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\Timer.h" />
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\utils.h" />
-    <ClInclude Include="..\..\PlantsFightDemo\PlantsFightDemo\Vector2.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Atlas.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ResourcesManager.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
